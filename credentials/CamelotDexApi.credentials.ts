@@ -55,7 +55,7 @@ export class CamelotDexApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 			"request": {
-				"baseURL": "={{ $credentials.baseUrl }}",
+				"baseURL": "={{ $credentials.url }}",
 				"url": "/health",
 				"method": "GET"
 			}

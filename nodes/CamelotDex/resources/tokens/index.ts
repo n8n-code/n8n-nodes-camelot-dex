@@ -49,7 +49,7 @@ export const tokensDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID of tokens data",
 			"default": "",

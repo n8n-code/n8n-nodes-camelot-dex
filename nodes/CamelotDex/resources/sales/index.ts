@@ -49,7 +49,7 @@ export const salesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID to filter sales",
 			"default": "",

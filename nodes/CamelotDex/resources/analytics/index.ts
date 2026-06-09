@@ -111,7 +111,7 @@ export const analyticsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"required": true,
 			"description": "Chain ID of analytics to retrieve. Leave empty to get all chains.",

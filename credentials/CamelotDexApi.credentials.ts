@@ -8,7 +8,7 @@ import type {
 export class CamelotDexApi implements ICredentialType {
 	name = 'N8nDevCamelotDexApi';
 
-	displayName = 'camelot-dex API';
+	displayName = 'Camelot Dex API';
 
 	icon: Icon = { light: 'file:../nodes/CamelotDex/camelot-dex.svg', dark: 'file:../nodes/CamelotDex/camelot-dex.dark.svg' };
 
@@ -22,7 +22,7 @@ export class CamelotDexApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'https://api.example.com',
-			description: 'The base URL of your camelot-dex API server',
+			description: 'The base URL of your Camelot Dex API server',
 		},
 		{
 			displayName: 'API Key',

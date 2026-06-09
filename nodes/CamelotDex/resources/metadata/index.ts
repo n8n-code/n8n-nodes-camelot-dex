@@ -49,7 +49,7 @@ export const metadataDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID of metadata",
 			"default": "",

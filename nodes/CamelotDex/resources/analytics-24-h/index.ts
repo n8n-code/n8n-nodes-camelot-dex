@@ -111,7 +111,7 @@ export const analytics24HDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"required": true,
 			"description": "Chain ID of last 24h analytics to retrieve.",

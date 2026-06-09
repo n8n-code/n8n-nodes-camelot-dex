@@ -1,9 +1,9 @@
-export { poolsV2Description } from './pools-v-2';
-export { poolsV3Description } from './pools-v-3';
-export { poolsV3TicksDescription } from './pools-v-3-ticks';
-export { poolsV4Description } from './pools-v-4';
-export { deprecatedPoolsV4Description } from './deprecated-pools-v-4';
-export { deprecatedPoolsV4TicksDescription } from './deprecated-pools-v-4-ticks';
+export { poolsV2Description } from './pools-v2';
+export { poolsV3Description } from './pools-v3';
+export { poolsV3TicksDescription } from './pools-v3-ticks';
+export { poolsV4Description } from './pools-v4';
+export { deprecatedPoolsV4Description } from './deprecated-pools-v4';
+export { deprecatedPoolsV4TicksDescription } from './deprecated-pools-v4-ticks';
 export { tokensDescription } from './tokens';
 export { vaultsDescription } from './vaults';
 export { campaignsDescription } from './campaigns';

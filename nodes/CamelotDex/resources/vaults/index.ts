@@ -49,7 +49,7 @@ export const vaultsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID of vaults data",
 			"default": "",

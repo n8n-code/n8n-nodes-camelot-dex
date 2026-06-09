@@ -49,7 +49,7 @@ export const rewardsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID of rewards data",
 			"default": "",

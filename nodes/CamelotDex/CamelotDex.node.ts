@@ -1,10 +1,10 @@
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
-import { poolsV2Description } from './resources/pools-v-2';
-import { poolsV3Description } from './resources/pools-v-3';
-import { poolsV3TicksDescription } from './resources/pools-v-3-ticks';
-import { poolsV4Description } from './resources/pools-v-4';
-import { deprecatedPoolsV4Description } from './resources/deprecated-pools-v-4';
-import { deprecatedPoolsV4TicksDescription } from './resources/deprecated-pools-v-4-ticks';
+import { poolsV2Description } from './resources/pools-v2';
+import { poolsV3Description } from './resources/pools-v3';
+import { poolsV3TicksDescription } from './resources/pools-v3-ticks';
+import { poolsV4Description } from './resources/pools-v4';
+import { deprecatedPoolsV4Description } from './resources/deprecated-pools-v4';
+import { deprecatedPoolsV4TicksDescription } from './resources/deprecated-pools-v4-ticks';
 import { tokensDescription } from './resources/tokens';
 import { vaultsDescription } from './resources/vaults';
 import { campaignsDescription } from './resources/campaigns';
@@ -26,14 +26,14 @@ import { defaultDescription } from './resources/default';
 
 export class CamelotDex implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'camelot-dex',
+		displayName: 'Camelot Dex',
 		name: 'N8nDevCamelotDex',
 		icon: { light: 'file:./camelot-dex.svg', dark: 'file:./camelot-dex.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Camelot DEX native Arbitrum decentralized exchange with concentrated liquidity and custom yield strategies',
-		defaults: { name: 'camelot-dex' },
+		description: 'Camelot DEX: Arbitrum DEX with concentrated liquidity and custom yield strategies.',
+		defaults: { name: 'Camelot Dex' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
@@ -58,33 +58,33 @@ export class CamelotDex implements INodeType {
 			"noDataExpression": true,
 			"options": [
 				{
-					"name": "Pools V 2",
-					"value": "Pools V 2",
+					"name": "Pools v2",
+					"value": "Pools v2",
 					"description": ""
 				},
 				{
-					"name": "Pools V 3",
-					"value": "Pools V 3",
+					"name": "Pools v3",
+					"value": "Pools v3",
 					"description": ""
 				},
 				{
-					"name": "Pools V 3 Ticks",
-					"value": "Pools V 3 Ticks",
+					"name": "Pools v3 Ticks",
+					"value": "Pools v3 Ticks",
 					"description": ""
 				},
 				{
-					"name": "Pools V 4",
-					"value": "Pools V 4",
+					"name": "Pools v4",
+					"value": "Pools v4",
 					"description": ""
 				},
 				{
-					"name": "Deprecated Pools V 4",
-					"value": "Deprecated Pools V 4",
+					"name": "Deprecated Pools v4",
+					"value": "Deprecated Pools v4",
 					"description": ""
 				},
 				{
-					"name": "Deprecated Pools V 4 Ticks",
-					"value": "Deprecated Pools V 4 Ticks",
+					"name": "Deprecated Pools v4 Ticks",
+					"value": "Deprecated Pools v4 Ticks",
 					"description": ""
 				},
 				{

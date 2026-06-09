@@ -49,7 +49,7 @@ export const healthDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Optional: Chain ID of protocol health. If omitted, returns health for all chains.",
 			"default": "",

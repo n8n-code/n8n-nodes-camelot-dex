@@ -9,14 +9,14 @@ export const poolsV3TicksDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3 Ticks"
+						"Pools v3 Ticks"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Get Pools V 3 Ticks",
-					"value": "Get Pools V 3 Ticks",
+					"name": "Get Pools v3 Ticks",
+					"value": "Get Pools v3 Ticks",
 					"action": "Retrieve used ticks of a v3 pool",
 					"description": "Retrieve used ticks of a v3 pool",
 					"routing": {
@@ -27,8 +27,8 @@ export const poolsV3TicksDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 4 Ticks",
-					"value": "Get Pools V 4 Ticks",
+					"name": "Get Pools v4 Ticks",
+					"value": "Get Pools v4 Ticks",
 					"action": "Retrieve used ticks of a v4 pool",
 					"description": "Retrieve used ticks of a v4 pool",
 					"routing": {
@@ -52,16 +52,16 @@ export const poolsV3TicksDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3 Ticks"
+						"Pools v3 Ticks"
 					],
 					"operation": [
-						"Get Pools V 3 Ticks"
+						"Get Pools v3 Ticks"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID of LP V3 ticks",
 			"default": "",
@@ -77,10 +77,10 @@ export const poolsV3TicksDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3 Ticks"
+						"Pools v3 Ticks"
 					],
 					"operation": [
-						"Get Pools V 3 Ticks"
+						"Get Pools v3 Ticks"
 					]
 				}
 			}
@@ -96,16 +96,16 @@ export const poolsV3TicksDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3 Ticks"
+						"Pools v3 Ticks"
 					],
 					"operation": [
-						"Get Pools V 4 Ticks"
+						"Get Pools v4 Ticks"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID of LP V4 ticks",
 			"default": "",
@@ -121,10 +121,10 @@ export const poolsV3TicksDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3 Ticks"
+						"Pools v3 Ticks"
 					],
 					"operation": [
-						"Get Pools V 4 Ticks"
+						"Get Pools v4 Ticks"
 					]
 				}
 			}

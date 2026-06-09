@@ -1,6 +1,6 @@
 import type { INodeProperties } from 'n8n-workflow';
 
-export const poolsV3Description: INodeProperties[] = [
+export const poolsV2Description: INodeProperties[] = [
 		{
 			"displayName": "Operation",
 			"name": "operation",
@@ -9,20 +9,20 @@ export const poolsV3Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3"
+						"Pools v2"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Get Pools V 3",
-					"value": "Get Pools V 3",
-					"action": "Retrieve V3 liquidity pools data",
-					"description": "Retrieve V3 liquidity pools data",
+					"name": "Get Pools v2",
+					"value": "Get Pools v2",
+					"action": "Retrieve V2 liquidity pools data",
+					"description": "Retrieve V2 liquidity pools data",
 					"routing": {
 						"request": {
 							"method": "GET",
-							"url": "=/pools-v3"
+							"url": "=/pools-v2"
 						}
 					}
 				}
@@ -30,7 +30,7 @@ export const poolsV3Description: INodeProperties[] = [
 			"default": ""
 		},
 		{
-			"displayName": "GET /pools-v3",
+			"displayName": "GET /pools-v2",
 			"name": "operation",
 			"type": "notice",
 			"typeOptions": {
@@ -40,18 +40,18 @@ export const poolsV3Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3"
+						"Pools v2"
 					],
 					"operation": [
-						"Get Pools V 3"
+						"Get Pools v2"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
-			"description": "Chain ID of LP V3 data",
+			"description": "Chain ID of LP V2 data",
 			"default": "",
 			"type": "string",
 			"routing": {
@@ -65,10 +65,10 @@ export const poolsV3Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3"
+						"Pools v2"
 					],
 					"operation": [
-						"Get Pools V 3"
+						"Get Pools v2"
 					]
 				}
 			}
@@ -90,10 +90,10 @@ export const poolsV3Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Pools V 3"
+						"Pools v2"
 					],
 					"operation": [
-						"Get Pools V 3"
+						"Get Pools v2"
 					]
 				}
 			}

@@ -15,9 +15,9 @@ export const defaultDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Pools V 2 History Tvl",
-					"value": "Get Pools V 2 History Tvl",
-					"action": "Get Pools V 2 History Tvl",
+					"name": "Get Pools v2 History Tvl",
+					"value": "Get Pools v2 History Tvl",
+					"action": "Get Pools v2 History Tvl",
 					"description": "",
 					"routing": {
 						"request": {
@@ -27,9 +27,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 2 History Volume",
-					"value": "Get Pools V 2 History Volume",
-					"action": "Get Pools V 2 History Volume",
+					"name": "Get Pools v2 History Volume",
+					"value": "Get Pools v2 History Volume",
+					"action": "Get Pools v2 History Volume",
 					"description": "",
 					"routing": {
 						"request": {
@@ -39,9 +39,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 2 History Fees",
-					"value": "Get Pools V 2 History Fees",
-					"action": "Get Pools V 2 History Fees",
+					"name": "Get Pools v2 History Fees",
+					"value": "Get Pools v2 History Fees",
+					"action": "Get Pools v2 History Fees",
 					"description": "",
 					"routing": {
 						"request": {
@@ -51,9 +51,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 2 History Txs",
-					"value": "Get Pools V 2 History Txs",
-					"action": "Get Pools V 2 History Txs",
+					"name": "Get Pools v2 History Txs",
+					"value": "Get Pools v2 History Txs",
+					"action": "Get Pools v2 History Txs",
 					"description": "",
 					"routing": {
 						"request": {
@@ -63,9 +63,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 2 History Price",
-					"value": "Get Pools V 2 History Price",
-					"action": "Get Pools V 2 History Price",
+					"name": "Get Pools v2 History Price",
+					"value": "Get Pools v2 History Price",
+					"action": "Get Pools v2 History Price",
 					"description": "",
 					"routing": {
 						"request": {
@@ -75,9 +75,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 3 History Tvl",
-					"value": "Get Pools V 3 History Tvl",
-					"action": "Get Pools V 3 History Tvl",
+					"name": "Get Pools v3 History Tvl",
+					"value": "Get Pools v3 History Tvl",
+					"action": "Get Pools v3 History Tvl",
 					"description": "",
 					"routing": {
 						"request": {
@@ -87,9 +87,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 3 History Volume",
-					"value": "Get Pools V 3 History Volume",
-					"action": "Get Pools V 3 History Volume",
+					"name": "Get Pools v3 History Volume",
+					"value": "Get Pools v3 History Volume",
+					"action": "Get Pools v3 History Volume",
 					"description": "",
 					"routing": {
 						"request": {
@@ -99,9 +99,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 3 History Fees",
-					"value": "Get Pools V 3 History Fees",
-					"action": "Get Pools V 3 History Fees",
+					"name": "Get Pools v3 History Fees",
+					"value": "Get Pools v3 History Fees",
+					"action": "Get Pools v3 History Fees",
 					"description": "",
 					"routing": {
 						"request": {
@@ -111,9 +111,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 3 History Txs",
-					"value": "Get Pools V 3 History Txs",
-					"action": "Get Pools V 3 History Txs",
+					"name": "Get Pools v3 History Txs",
+					"value": "Get Pools v3 History Txs",
+					"action": "Get Pools v3 History Txs",
 					"description": "",
 					"routing": {
 						"request": {
@@ -123,9 +123,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 3 History Price",
-					"value": "Get Pools V 3 History Price",
-					"action": "Get Pools V 3 History Price",
+					"name": "Get Pools v3 History Price",
+					"value": "Get Pools v3 History Price",
+					"action": "Get Pools v3 History Price",
 					"description": "",
 					"routing": {
 						"request": {
@@ -135,9 +135,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 4 History Tvl",
-					"value": "Get Pools V 4 History Tvl",
-					"action": "Get Pools V 4 History Tvl",
+					"name": "Get Pools v4 History Tvl",
+					"value": "Get Pools v4 History Tvl",
+					"action": "Get Pools v4 History Tvl",
 					"description": "",
 					"routing": {
 						"request": {
@@ -147,9 +147,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 4 History Volume",
-					"value": "Get Pools V 4 History Volume",
-					"action": "Get Pools V 4 History Volume",
+					"name": "Get Pools v4 History Volume",
+					"value": "Get Pools v4 History Volume",
+					"action": "Get Pools v4 History Volume",
 					"description": "",
 					"routing": {
 						"request": {
@@ -159,9 +159,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 4 History Fees",
-					"value": "Get Pools V 4 History Fees",
-					"action": "Get Pools V 4 History Fees",
+					"name": "Get Pools v4 History Fees",
+					"value": "Get Pools v4 History Fees",
+					"action": "Get Pools v4 History Fees",
 					"description": "",
 					"routing": {
 						"request": {
@@ -171,9 +171,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 4 History Txs",
-					"value": "Get Pools V 4 History Txs",
-					"action": "Get Pools V 4 History Txs",
+					"name": "Get Pools v4 History Txs",
+					"value": "Get Pools v4 History Txs",
+					"action": "Get Pools v4 History Txs",
 					"description": "",
 					"routing": {
 						"request": {
@@ -183,9 +183,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Pools V 4 History Price",
-					"value": "Get Pools V 4 History Price",
-					"action": "Get Pools V 4 History Price",
+					"name": "Get Pools v4 History Price",
+					"value": "Get Pools v4 History Price",
+					"action": "Get Pools v4 History Price",
 					"description": "",
 					"routing": {
 						"request": {
@@ -211,7 +211,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 2 History Tvl"
+						"Get Pools v2 History Tvl"
 					]
 				}
 			}
@@ -230,7 +230,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 2 History Volume"
+						"Get Pools v2 History Volume"
 					]
 				}
 			}
@@ -249,7 +249,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 2 History Fees"
+						"Get Pools v2 History Fees"
 					]
 				}
 			}
@@ -268,7 +268,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 2 History Txs"
+						"Get Pools v2 History Txs"
 					]
 				}
 			}
@@ -287,7 +287,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 2 History Price"
+						"Get Pools v2 History Price"
 					]
 				}
 			}
@@ -306,7 +306,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 3 History Tvl"
+						"Get Pools v3 History Tvl"
 					]
 				}
 			}
@@ -325,7 +325,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 3 History Volume"
+						"Get Pools v3 History Volume"
 					]
 				}
 			}
@@ -344,7 +344,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 3 History Fees"
+						"Get Pools v3 History Fees"
 					]
 				}
 			}
@@ -363,7 +363,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 3 History Txs"
+						"Get Pools v3 History Txs"
 					]
 				}
 			}
@@ -382,7 +382,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 3 History Price"
+						"Get Pools v3 History Price"
 					]
 				}
 			}
@@ -401,7 +401,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 4 History Tvl"
+						"Get Pools v4 History Tvl"
 					]
 				}
 			}
@@ -420,7 +420,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 4 History Volume"
+						"Get Pools v4 History Volume"
 					]
 				}
 			}
@@ -439,7 +439,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 4 History Fees"
+						"Get Pools v4 History Fees"
 					]
 				}
 			}
@@ -458,7 +458,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 4 History Txs"
+						"Get Pools v4 History Txs"
 					]
 				}
 			}
@@ -477,7 +477,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"Get Pools V 4 History Price"
+						"Get Pools v4 History Price"
 					]
 				}
 			}

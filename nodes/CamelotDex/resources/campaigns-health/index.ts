@@ -49,7 +49,7 @@ export const campaignsHealthDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID of campaigns health data",
 			"default": "",

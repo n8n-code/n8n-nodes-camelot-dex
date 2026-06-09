@@ -9,14 +9,14 @@ export const deprecatedPoolsV4Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Deprecated Pools V 4"
+						"Deprecated Pools v4"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Get Pools V 4 Migration",
-					"value": "Get Pools V 4 Migration",
+					"name": "Get Pools v4 Migration",
+					"value": "Get Pools v4 Migration",
 					"action": "Retrieve deprecated V4 liquidity pools data",
 					"description": "Retrieve deprecated V4 liquidity pools data",
 					"routing": {
@@ -40,16 +40,16 @@ export const deprecatedPoolsV4Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Deprecated Pools V 4"
+						"Deprecated Pools v4"
 					],
 					"operation": [
-						"Get Pools V 4 Migration"
+						"Get Pools v4 Migration"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"description": "Chain ID of LP V4 data",
 			"default": "",
@@ -65,10 +65,10 @@ export const deprecatedPoolsV4Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Deprecated Pools V 4"
+						"Deprecated Pools v4"
 					],
 					"operation": [
-						"Get Pools V 4 Migration"
+						"Get Pools v4 Migration"
 					]
 				}
 			}
@@ -90,10 +90,10 @@ export const deprecatedPoolsV4Description: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Deprecated Pools V 4"
+						"Deprecated Pools v4"
 					],
 					"operation": [
-						"Get Pools V 4 Migration"
+						"Get Pools v4 Migration"
 					]
 				}
 			}

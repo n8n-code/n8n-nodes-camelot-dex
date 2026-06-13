@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-camelot-dex",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Camelot DEX: Arbitrum DEX with concentrated liquidity and custom yield strategies.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-camelot-dex",

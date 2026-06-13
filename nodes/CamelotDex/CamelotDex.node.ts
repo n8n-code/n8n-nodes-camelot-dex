@@ -25,32 +25,32 @@ import { salesDescription } from './resources/sales';
 import { defaultDescription } from './resources/default';
 
 export class CamelotDex implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Camelot Dex',
-		name: 'N8nDevCamelotDex',
-		icon: { light: 'file:./camelot-dex.svg', dark: 'file:./camelot-dex.dark.svg' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Camelot DEX: Arbitrum DEX with concentrated liquidity and custom yield strategies.',
-		defaults: { name: 'Camelot Dex' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevCamelotDexApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Camelot Dex',
+                name: 'N8nDevCamelotDex',
+                icon: { light: 'file:./camelot-dex.svg', dark: 'file:./camelot-dex.dark.svg' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Camelot DEX: Arbitrum DEX with concentrated liquidity and custom yield strategies.',
+                defaults: { name: 'Camelot Dex' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevCamelotDexApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -204,6 +204,6 @@ export class CamelotDex implements INodeType {
 		...oTokenDescription,
 		...salesDescription,
 		...defaultDescription
-		],
-	};
+                ],
+        };
 }
